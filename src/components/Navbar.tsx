@@ -99,7 +99,9 @@ export default function Navbar({ activeSection, onNavigate, onOpenResume }: Navb
         {/* "Say hi" CTA Button */}
         <a
           id="nav-say-hi-btn"
-          href={`mailto:${PERSONAL_INFO.email}`}
+          href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(PERSONAL_INFO.email)}`}
+          target="_blank"
+          rel="noopener noreferrer"
           className="group relative inline-flex items-center justify-center rounded-full text-xs sm:text-sm font-medium focus:outline-none"
         >
           {/* Accent gradient hover border glow */}

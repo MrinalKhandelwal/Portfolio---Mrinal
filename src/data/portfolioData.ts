@@ -1,6 +1,6 @@
 import { Project, Certification, SkillCategory } from '../types';
 
-import portraitImg from '../assets/images/mrinal_portrait_1788190406275.jpg';
+import portraitImg from '../assets/images/mrinal_formal_portrait_1788202458551.jpg';
 import pantrypalImg from '../assets/images/pantrypal_preview_1788192876682.jpg';
 import vistaCertificateImg from '../assets/images/vista_certificate_1788201458789.jpg';
 
