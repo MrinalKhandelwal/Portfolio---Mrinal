@@ -5,7 +5,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import SelectedWorks from './components/SelectedWorks';
 import ResumeSkillsSection from './components/ResumeSkillsSection';
-import Explorations from './components/Explorations';
 import StatsSection from './components/StatsSection';
 import ContactFooter from './components/ContactFooter';
 import ProjectModal from './components/ProjectModal';
@@ -21,7 +20,7 @@ export default function App() {
   // Scroll spy for updating active navbar section
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'works', 'skills', 'explorations', 'contact'];
+      const sections = ['hero', 'works', 'skills', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -79,13 +78,10 @@ export default function App() {
         {/* Section 4: Skills, Certifications & Education (from Resume) */}
         <ResumeSkillsSection onOpenResumeModal={() => setIsResumeModalOpen(true)} />
 
-        {/* Section 5: Explorations (GSAP Parallax Gallery) */}
-        <Explorations />
-
-        {/* Section 6: Stats */}
+        {/* Section 5: Stats */}
         <StatsSection />
 
-        {/* Section 7: Contact / Footer */}
+        {/* Section 6: Contact / Footer */}
         <ContactFooter />
       </main>
 

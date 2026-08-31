@@ -49,7 +49,7 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                 {PERSONAL_INFO.name}
               </h2>
               <span className="text-xs text-[#89AACC] font-mono bg-[#89AACC]/10 px-2.5 py-0.5 rounded-full border border-[#89AACC]/20">
-                B.Tech CSE (3rd Sem CGPA: {PERSONAL_INFO.cgpa})
+                B.Tech CSE (2025–2029 &bull; CGPA: {PERSONAL_INFO.cgpa})
               </span>
             </div>
 
@@ -135,10 +135,10 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             <div className="p-4 bg-bg/60 border border-stroke rounded-2xl">
               <div className="flex justify-between items-start mb-1">
                 <h4 className="text-sm font-semibold text-text-primary">B.Tech, Computer Science Engineering</h4>
-                <span className="text-xs text-[#89AACC] font-mono font-bold">CGPA: 8.48</span>
+                <span className="text-xs text-[#89AACC] font-mono font-bold">2025 &ndash; 2029</span>
               </div>
               <p className="text-xs text-muted">Modern Institute of Technology and Research Centre (MITRC), Alwar</p>
-              <p className="text-[11px] text-muted/70">Affiliated with Bikaner Technical University &bull; 3rd Semester</p>
+              <p className="text-[11px] text-muted/70">Affiliated with Bikaner Technical University &bull; 3rd Sem CGPA: 8.48 &bull; Graduating 2029</p>
             </div>
             <div className="p-4 bg-bg/60 border border-stroke rounded-2xl flex flex-col justify-between">
               <div>

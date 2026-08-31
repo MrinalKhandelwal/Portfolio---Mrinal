@@ -159,7 +159,7 @@ export default function ContactFooter() {
               {PERSONAL_INFO.name}
             </div>
             <div className="text-[11px] text-muted">
-              MITRC Alwar &bull; B.Tech Computer Science &apos;26
+              MITRC Alwar &bull; B.Tech Computer Science &apos;29
             </div>
           </div>
         </div>

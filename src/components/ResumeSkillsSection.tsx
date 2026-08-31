@@ -228,7 +228,7 @@ export default function ResumeSkillsSection({ onOpenResumeModal }: ResumeSkillsS
                     <span className="text-xs uppercase tracking-widest text-[#89AACC] font-semibold">
                       Undergraduate Degree
                     </span>
-                    <span className="text-xs text-muted font-mono">2024 &ndash; 2028</span>
+                    <span className="text-xs text-muted font-mono">2025 &ndash; 2029</span>
                   </div>
 
                   <h3 className="text-xl sm:text-2xl font-display italic text-text-primary mb-1">
@@ -238,7 +238,7 @@ export default function ResumeSkillsSection({ onOpenResumeModal }: ResumeSkillsS
                     {PERSONAL_INFO.college}
                   </p>
                   <p className="text-xs text-muted mb-4">
-                    Affiliated with {PERSONAL_INFO.university} &bull; Alwar, Rajasthan
+                    Affiliated with {PERSONAL_INFO.university} &bull; Expected Graduation: 2029
                   </p>
 
                   <div className="bg-bg/80 border border-stroke rounded-2xl p-4 mb-4">

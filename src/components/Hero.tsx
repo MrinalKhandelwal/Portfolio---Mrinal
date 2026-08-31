@@ -121,7 +121,7 @@ export default function Hero({ onSeeWorks, onReachOut, onOpenResume }: HeroProps
             />
           </div>
           <span className="text-xs text-muted uppercase tracking-[0.3em] font-medium">
-            COLLECTION &apos;26 &bull; CS &amp; GENAI
+            CLASS OF &apos;29 &bull; CS &amp; GENAI
           </span>
         </div>
 

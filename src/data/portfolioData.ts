@@ -1,8 +1,8 @@
-import { Project, Certification, SkillCategory, ExplorationItem } from '../types';
+import { Project, Certification, SkillCategory } from '../types';
 
 import portraitImg from '../assets/images/mrinal_portrait_1788190406275.jpg';
 import pantrypalImg from '../assets/images/pantrypal_preview_1788192876682.jpg';
-import genaiImg from '../assets/images/genai_perspective_1788190463699.jpg';
+import vistaCertificateImg from '../assets/images/vista_certificate_1788201458789.jpg';
 
 export const PERSONAL_INFO = {
   name: "Mrinal Khandelwal",
@@ -14,8 +14,10 @@ export const PERSONAL_INFO = {
   college: "Modern Institute of Technology and Research Centre (MITRC), Alwar",
   university: "Bikaner Technical University",
   degree: "B.Tech in Computer Science and Engineering",
+  btechYears: "2025 – 2029",
+  gradYear: "2029",
   cgpa: "8.48 (3rd Semester)",
-  summary: "B.Tech Computer Science Engineering student skilled in C, C++, JavaScript, React.js, Python, MySQL and DSA, with a strong interest in software engineering, web development, and Generative AI. Experienced in applying AI tools and prompt engineering to real-world business tasks.",
+  summary: "B.Tech Computer Science Engineering student (2025–2029) skilled in C, C++, JavaScript, React.js, Python, MySQL and DSA, with a strong interest in software engineering, web development, and Generative AI. Experienced in applying AI tools and prompt engineering to real-world business tasks.",
   linkedin: "https://linkedin.com/in/mrinal-khandelwal2008",
   github: "https://github.com/mrinalkhandelwal",
   twitter: "https://x.com/MrinalKhandelw3",
@@ -52,7 +54,7 @@ export const PROJECTS: Project[] = [
     category: "Enterprise AI & Prompt Systems",
     tagline: "Structured prompt frameworks & automated executive feedback synthesis",
     description: "Developed during the Vista Equity Partners AI in Action simulation. Engineered reproducible multi-step GenAI pipelines using the 4-part prompt framework (Ask, Context, Examples, Desired Output) to transform raw customer NPS streams into executive-ready strategic summaries, reducing ambiguity and improving output accuracy by >50%.",
-    image: genaiImg,
+    image: vistaCertificateImg,
     colSpan: "md:col-span-12",
     aspectRatio: "aspect-[16/9] md:aspect-[21/9]",
     tags: ["Prompt Engineering", "GenAI Pipelines", "Executive Analytics", "ChatGPT / Copilot", "Quality Guardrails"],
@@ -180,63 +182,6 @@ export const CERTIFICATIONS: Certification[] = [
     badgeType: "microsoft",
     year: "2026",
     skillsCovered: ["Strategic AI Implementation", "ROI Assessment", "Change Leadership"],
-  },
-];
-
-export const EXPLORATION_ITEMS: ExplorationItem[] = [
-  {
-    id: "exp-1",
-    title: "PantryPal Inventory Matrix",
-    subtitle: "Realtime shelf-life & smart tracking",
-    image: pantrypalImg,
-    rotation: "-rotate-2",
-    speed: 0.8,
-    category: "Fullstack Architecture",
-  },
-  {
-    id: "exp-2",
-    title: "Synaptic GenAI Mesh",
-    subtitle: "Multi-agent node coordination & synthesis",
-    image: genaiImg,
-    rotation: "rotate-3",
-    speed: 1.4,
-    category: "AI Graph",
-  },
-  {
-    id: "exp-3",
-    title: "Zero Food Waste Engine",
-    subtitle: "Dynamic ingredient recipe optimizer",
-    image: pantrypalImg,
-    rotation: "-rotate-1",
-    speed: 0.6,
-    category: "Algorithm Design",
-  },
-  {
-    id: "exp-4",
-    title: "Vista Prompt Frameworks",
-    subtitle: "4-Part structured prompt architecture",
-    image: genaiImg,
-    rotation: "rotate-2",
-    speed: 1.2,
-    category: "Prompt Systems",
-  },
-  {
-    id: "exp-5",
-    title: "Engineering Portfolio Systems",
-    subtitle: "High-contrast dark editorial interface",
-    image: portraitImg,
-    rotation: "-rotate-3",
-    speed: 0.9,
-    category: "UI Architecture",
-  },
-  {
-    id: "exp-6",
-    title: "AI Guardrail & NPS Validator",
-    subtitle: "Hallucination mitigation & tone calibration",
-    image: genaiImg,
-    rotation: "rotate-1",
-    speed: 1.5,
-    category: "Quality Assurance",
   },
 ];
 
