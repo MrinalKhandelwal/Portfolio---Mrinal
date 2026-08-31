@@ -1,0 +1,6 @@
+{
+  "name": "Mrinal Khandelwal - Portfolio",
+  "description": "Portfolio landing page for Mrinal Khandelwal, Computer Science Engineer and GenAI Developer featuring interactive Bento grid, parallax visual playground, technical skills, certifications, and smooth GSAP/Framer Motion animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
