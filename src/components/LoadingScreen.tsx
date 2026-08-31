@@ -104,7 +104,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
       {/* Bottom Row: Counter and Details */}
       <div className="w-full flex items-end justify-between">
         <div className="text-xs text-muted/70 tracking-wider hidden sm:block">
-          Alwar, India &bull; Class of &apos;26
+          Alwar, India &bull; Class of &apos;29
         </div>
 
         {/* Big Counter Display */}
